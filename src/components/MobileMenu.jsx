@@ -44,13 +44,20 @@ export default function MobileMenu({ isOpen, onClose }) {
             <div>
               {/* Header */}
               <div className="flex items-center justify-between pb-6 border-b-2 border-black">
-                <div>
-                  <h2 className="font-heading font-black text-lg text-black uppercase tracking-tight">
-                    {businessInfo.name}
-                  </h2>
-                  <p className="text-xs text-black/70 font-extrabold uppercase">
-                    Cyber Cafe &amp; Online Centre
-                  </p>
+                <div className="flex items-center gap-3">
+                  <img
+                    src={businessInfo.logo}
+                    alt="Vivek Online Center Logo"
+                    className="w-10 h-10 rounded-full border-2 border-black object-cover shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] shrink-0"
+                  />
+                  <div>
+                    <h2 className="font-heading font-black text-base text-black uppercase tracking-tight leading-tight">
+                      {businessInfo.name}
+                    </h2>
+                    <p className="text-[10px] text-black/70 font-extrabold uppercase">
+                      Cyber Cafe &amp; Online Centre
+                    </p>
+                  </div>
                 </div>
                 <button
                   onClick={onClose}

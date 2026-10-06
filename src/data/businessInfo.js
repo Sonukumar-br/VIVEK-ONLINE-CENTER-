@@ -1,5 +1,6 @@
 export const businessInfo = {
   name: "Vivek Online Center",
+  logo: "/images/logo.jpg",
   subtitle: "Cyber Cafe & Online Centre (साइबर कैफे एवं ऑनलाइन सेंटर)",
   tagline: "आपका अपना डिजिटल सेवा केंद्र | Your Local Digital Service Centre",
   description: "ऑनलाइन फॉर्म, एडमिट कार्ड, प्रिंटिंग, स्कैनिंग, फोटोकॉपी और तुरंत पासपोर्ट फोटो। Fast, simple and accurate digital services for everyone.",

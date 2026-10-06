@@ -21,13 +21,20 @@ export default function Footer() {
           
           {/* Column 1: Branding & Intro (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
-            <Link to="/" className="flex flex-col group">
-              <span className="font-heading font-black text-2xl text-white tracking-tight group-hover:text-[#4da2ff] transition-colors uppercase">
-                {businessInfo.name}
-              </span>
-              <span className="text-xs text-[#ffd731] font-bold tracking-wider uppercase">
-                Cyber Cafe &amp; Online Centre
-              </span>
+            <Link to="/" className="flex items-center gap-3 group">
+              <img
+                src={businessInfo.logo}
+                alt="Vivek Online Center Logo"
+                className="w-12 h-12 rounded-full border-2 border-white object-cover shadow-md shrink-0 group-hover:scale-105 transition-transform"
+              />
+              <div className="flex flex-col">
+                <span className="font-heading font-black text-2xl text-white tracking-tight group-hover:text-[#4da2ff] transition-colors uppercase leading-none">
+                  {businessInfo.name}
+                </span>
+                <span className="text-xs text-[#ffd731] font-bold tracking-wider uppercase mt-1">
+                  Cyber Cafe &amp; Online Centre
+                </span>
+              </div>
             </Link>
 
             <p className="text-sm text-white/80 leading-relaxed max-w-sm font-medium">

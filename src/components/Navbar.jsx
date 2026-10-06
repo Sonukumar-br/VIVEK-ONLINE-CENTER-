@@ -40,9 +40,11 @@ export default function Navbar() {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 h-[64px] flex items-center justify-between">
           {/* Left: Branding Logo */}
           <Link to="/" className="flex items-center gap-3 group focus:outline-none">
-            <div className="w-10 h-10 rounded-full bg-[#4da2ff] border-2 border-black flex items-center justify-center font-heading font-black text-black text-lg shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] group-hover:bg-[#ffd731] transition-colors">
-              V
-            </div>
+            <img
+              src={businessInfo.logo}
+              alt="Vivek Online Center Logo"
+              className="w-10 h-10 rounded-full border-2 border-black object-cover shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] group-hover:scale-105 transition-transform"
+            />
             <div className="flex flex-col">
               <span className="font-heading font-black text-lg sm:text-xl text-black tracking-tight leading-none group-hover:text-[#4da2ff] transition-colors uppercase">
                 {businessInfo.name}
