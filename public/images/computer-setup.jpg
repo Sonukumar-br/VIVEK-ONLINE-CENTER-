@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <rect width="800" height="600" fill="#0D1422"/>
+  <rect x="50" y="50" width="700" height="500" rx="16" fill="#111827" stroke="#2563EB" stroke-width="3"/>
+  <rect x="150" y="120" width="500" height="300" rx="12" fill="#080B12" stroke="#3B82F6" stroke-width="4"/>
+  <!-- Screen Elements -->
+  <path d="M200 180 h400 M200 230 h350 M200 280 h380 M200 330 h250" stroke="#2563EB" stroke-width="8" stroke-linecap="round"/>
+  <text x="400" y="490" font-family="sans-serif" font-weight="700" font-size="24" fill="#F8FAFC" text-anchor="middle">High-Speed Computer &amp; Online Portal Workstation</text>
+</svg>

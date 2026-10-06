@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 310" width="240" height="310">
+  <rect x="5" y="5" width="230" height="300" rx="8" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Header -->
+  <rect x="5" y="5" width="230" height="45" fill="#4da2ff" stroke="#000000" stroke-width="2"/>
+  <text x="120" y="26" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle" fill="#000000">ONLINE APPLICATION FORM</text>
+  <text x="120" y="40" font-family="sans-serif" font-weight="800" font-size="8" text-anchor="middle" fill="#000000">CENTRAL RECRUITMENT PORTAL</text>
+
+  <!-- Application Details -->
+  <text x="20" y="70" font-family="sans-serif" font-weight="800" font-size="8" fill="#666666">APPLICATION NO:</text>
+  <text x="105" y="70" font-family="monospace" font-weight="900" font-size="10" fill="#000000">APP-2026-X999</text>
+
+  <text x="20" y="90" font-family="sans-serif" font-weight="800" font-size="8" fill="#666666">CANDIDATE NAME:</text>
+  <text x="105" y="90" font-family="sans-serif" font-weight="900" font-size="10" fill="#000000">DEMO APPLICANT</text>
+
+  <text x="20" y="110" font-family="sans-serif" font-weight="800" font-size="8" fill="#666666">SERVICE CATEGORY:</text>
+  <text x="105" y="110" font-family="sans-serif" font-weight="900" font-size="9" fill="#000000">GOVT RECRUITMENT</text>
+
+  <!-- Form Lines & Checkboxes -->
+  <line x1="20" y1="125" x2="220" y2="125" stroke="#000000" stroke-width="2" stroke-dasharray="4"/>
+
+  <rect x="20" y="140" width="14" height="14" rx="2" fill="#55db9c" stroke="#000000" stroke-width="2"/>
+  <path d="M 23 147 L 27 151 L 32 143" stroke="#000000" stroke-width="2.5" fill="none"/>
+  <text x="42" y="152" font-family="sans-serif" font-weight="800" font-size="9" fill="#000000">DOCUMENTS VERIFIED</text>
+
+  <rect x="20" y="165" width="14" height="14" rx="2" fill="#55db9c" stroke="#000000" stroke-width="2"/>
+  <path d="M 23 172 L 27 176 L 32 168" stroke="#000000" stroke-width="2.5" fill="none"/>
+  <text x="42" y="177" font-family="sans-serif" font-weight="800" font-size="9" fill="#000000">FEE PAYMENT CONFIRMED</text>
+
+  <rect x="20" y="190" width="14" height="14" rx="2" fill="#55db9c" stroke="#000000" stroke-width="2"/>
+  <path d="M 23 197 L 27 201 L 32 193" stroke="#000000" stroke-width="2.5" fill="none"/>
+  <text x="42" y="202" font-family="sans-serif" font-weight="800" font-size="9" fill="#000000">PORTAL ACKNOWLEDGEMENT</text>
+
+  <!-- Photo Box -->
+  <rect x="170" y="60" width="50" height="60" rx="3" fill="#e9e9e9" stroke="#000000" stroke-width="2"/>
+  <circle cx="195" cy="80" r="12" fill="#888888"/>
+  <path d="M 180 115 C 180 98, 210 98, 210 115 Z" fill="#888888"/>
+
+  <!-- Official Stamp Badge -->
+  <rect x="20" y="225" width="200" height="35" rx="6" fill="#ffd731" stroke="#000000" stroke-width="2"/>
+  <text x="120" y="247" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle" fill="#000000">SUBMITTED &amp; VERIFIED ✓</text>
+
+  <!-- Barcode -->
+  <rect x="40" y="270" width="160" height="20" fill="#000000"/>
+  <rect x="44" y="270" width="3" height="20" fill="#ffffff"/>
+  <rect x="52" y="270" width="5" height="20" fill="#ffffff"/>
+  <rect x="65" y="270" width="2" height="20" fill="#ffffff"/>
+  <rect x="75" y="270" width="6" height="20" fill="#ffffff"/>
+  <rect x="90" y="270" width="3" height="20" fill="#ffffff"/>
+  <rect x="105" y="270" width="4" height="20" fill="#ffffff"/>
+  <rect x="120" y="270" width="2" height="20" fill="#ffffff"/>
+  <rect x="135" y="270" width="5" height="20" fill="#ffffff"/>
+  <rect x="150" y="270" width="3" height="20" fill="#ffffff"/>
+</svg>

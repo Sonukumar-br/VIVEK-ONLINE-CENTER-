@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1422"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080B12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="20" y="20" width="760" height="560" rx="16" fill="none" stroke="#1E293B" stroke-width="4"/>
+  
+  <!-- Cyber Cafe Graphic -->
+  <g transform="translate(150, 100)">
+    <!-- Monitor 1 -->
+    <rect x="40" y="80" width="200" height="140" rx="8" fill="#1E293B" stroke="#3B82F6" stroke-width="3"/>
+    <rect x="50" y="90" width="180" height="120" rx="4" fill="#080B12"/>
+    <path d="M70 120 h140 M70 140 h100 M70 160 h120" stroke="#2563EB" stroke-width="4" stroke-linecap="round"/>
+    <rect x="120" y="220" width="40" height="30" fill="#1E293B"/>
+    <rect x="90" y="250" width="100" height="10" rx="3" fill="#3B82F6"/>
+
+    <!-- Printer Graphic -->
+    <rect x="280" y="110" width="180" height="110" rx="10" fill="#1E293B" stroke="#22C55E" stroke-width="3"/>
+    <rect x="310" y="70" width="120" height="40" rx="4" fill="#F8FAFC"/>
+    <rect x="310" y="190" width="120" height="50" rx="4" fill="#F8FAFC"/>
+    <circle cx="430" cy="140" r="6" fill="#22C55E"/>
+    
+    <!-- Text Badge -->
+    <rect x="50" y="320" width="400" height="90" rx="12" fill="url(#accent)"/>
+    <text x="250" y="360" font-family="sans-serif" font-weight="bold" font-size="28" fill="#FFFFFF" text-anchor="middle">VIVEK ONLINE</text>
+    <text x="250" y="390" font-family="sans-serif" font-size="16" fill="#E2E8F0" text-anchor="middle">Cyber Cafe &amp; Online Centre</text>
+  </g>
+</svg>

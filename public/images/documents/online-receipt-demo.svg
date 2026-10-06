@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 310" width="240" height="310">
+  <rect x="5" y="5" width="230" height="300" rx="8" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Header -->
+  <rect x="5" y="5" width="230" height="45" fill="#55db9c" stroke="#000000" stroke-width="2"/>
+  <text x="120" y="24" font-family="sans-serif" font-weight="900" font-size="11" text-anchor="middle" fill="#000000">GOVT REVENUE E-RECEIPT</text>
+  <text x="120" y="38" font-family="sans-serif" font-weight="800" font-size="9" text-anchor="middle" fill="#000000">TAX &amp; LAGAN PAYMENT SLIP</text>
+
+  <!-- Details -->
+  <text x="20" y="70" font-family="sans-serif" font-weight="800" font-size="8" fill="#666666">RECEIPT NO:</text>
+  <text x="105" y="70" font-family="monospace" font-weight="900" font-size="10" fill="#000000">RCT-2026-X8877</text>
+
+  <text x="20" y="90" font-family="sans-serif" font-weight="800" font-size="8" fill="#666666">DEPOSITOR NAME:</text>
+  <text x="105" y="90" font-family="sans-serif" font-weight="900" font-size="10" fill="#000000">DEMO PAYER</text>
+
+  <text x="20" y="110" font-family="sans-serif" font-weight="800" font-size="8" fill="#666666">CHALLAN AMOUNT:</text>
+  <text x="105" y="110" font-family="monospace" font-weight="900" font-size="11" fill="#000000">₹ X,XXX.00</text>
+
+  <line x1="20" y1="125" x2="220" y2="125" stroke="#000000" stroke-width="2" stroke-dasharray="4"/>
+
+  <!-- Stamp Box -->
+  <g transform="translate(45, 150)">
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="#ffd731" stroke="#000000" stroke-width="3"/>
+    <text x="75" y="28" font-family="sans-serif" font-weight="900" font-size="14" text-anchor="middle" fill="#000000">PAID &amp; FILED ✓</text>
+    <text x="75" y="46" font-family="sans-serif" font-weight="800" font-size="9" text-anchor="middle" fill="#000000">TREASURY ACKNOWLEDGEMENT</text>
+  </g>
+
+  <!-- Barcode -->
+  <rect x="40" y="240" width="160" height="20" fill="#000000"/>
+  <rect x="44" y="240" width="4" height="20" fill="#ffffff"/>
+  <rect x="56" y="240" width="5" height="20" fill="#ffffff"/>
+  <rect x="72" y="240" width="3" height="20" fill="#ffffff"/>
+  <rect x="88" y="240" width="6" height="20" fill="#ffffff"/>
+  <rect x="110" y="240" width="3" height="20" fill="#ffffff"/>
+  <rect x="126" y="240" width="5" height="20" fill="#ffffff"/>
+  <rect x="145" y="240" width="4" height="20" fill="#ffffff"/>
+</svg>
